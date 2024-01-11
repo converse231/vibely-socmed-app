@@ -64,6 +64,7 @@ export async function POST(req) {
         email_addresses,
         username
       );
+      console.log("User is created or updated");
 
       return new Response("User is created or updated", {
         status: 200,
